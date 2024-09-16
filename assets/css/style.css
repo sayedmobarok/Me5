@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mobarok;
+}
+body{
+    background-color: #FFF3E9;
+}
+
+@font-face{
+    font-family: mobarok;
+    src: url('../fonts/SharpGroteskMedium22-Regular.ttf');
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: mobarok;
+    padding: 30px;
+    background-color: #FFF3E9;
+}
+.headerlogo{
+    width: 136px;
+    height: 46px;
+}
+.headerlogo img{
+    width: 100%;
+    height: 100%;
+}
+.headerlist ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.headerlist ul li{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 36px;
+}
+.rigister{
+    display: flex;
+    align-items: center;
+}
+.rigister h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C1917;
+}
+.rigister button{
+    width: 116px;
+    height: 56px;
+    border-radius: 20px;
+    background: #184463;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    margin-left: 25px;
+    border: none;
+    cursor: pointer;
+
+}
+.heroictop{
+    padding: 60px 30px 50px 30px;
+}
+.heroictop h1{
+    font-size: 66px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #184463;
+    margin-bottom: 20px;
+}
+.heroictop h1 span:first-child{
+    font-weight: 600;
+    color: #FF7919;
+}
+.heroictop h1 span:last-child{
+    font-weight: 600;
+}
+.heroictop h3{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: #09090B;
+    margin-bottom: 10px;
+}
+.heroictop h3 span{
+    color: #FF7919;
+    font-weight: 600;
+}
+.heroictop p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+.services{
+    padding: 40px;
+}
+.serviceswrap{
+    display: flex;
+    justify-content: space-between;
+    background-color: #BADEFF;
+    border-radius: 30px;
+    padding: 30px;
+}
+.servicesleft{
+    width: 55%;
+}
+.servicesleft h2{
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 500;
+    color: #184463;
+    margin-bottom: 20px;
+}
+.servicesleft h2 span{
+    font-weight: 600;
+}
+.singleservices{
+    display: flex;
+    margin-bottom: 20px;
+}
+.singleservices h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.singleservices h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.servicesleft h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #184463;
+    margin-top: 30px;
+}
+
+.servicesright{
+    width: 37%;
+}
+.servicesright img{
+    width: 100%;
+}
+
+
+
+.seotoolwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.seotooleft{
+    width: 45%;
+}
+
+.seotooleft h2{
+    font-size: 56px;
+    line-height: 78px;
+    font-weight: 500;
+    color: #184463;
+    margin-bottom: 20px;
+}
+.seotooleft h2 span{
+    font-weight: 600;
+    color: #FF7919;
+}
+.seotooleft h4{
+    font-size: 28px;
+    line-height: 40px;
+    color: #184463;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.seotooleft p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #09090B;
+    font-weight: 400;
+}
+.seotoolright{
+    width: 45%;
+}
+.seotoolright img{
+    width: 90%;
+}
+.template button{
+    width: 123px;
+    height: 46px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FF7919;
+    color: #FAFAFA;
+    border-radius: 18px;
+    display: block;
+    margin: auto;
+}
+.template{
+    padding-top: 100px;
+}
+.template h2{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #184463;
+    text-align: center;
+    margin-top: 20px;
+}
+.templatewrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.singletemplate{
+    width: 22.9%;
+    height: 221px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.singletemplate p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #09090B;
+    line-height: 27px;
+}
+.templateimgtext{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.templateimgtext img{
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+.templateimgtext h4{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #184463;
+    font-family: "Lexend", sans-serif;
+    margin-left: 10px;
+
+}
+
+
+.testsystem{
+    padding: 50px;
+}
+.testsystem h5{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: #09090B;
+    margin-bottom: 20px;
+}
+.testsystem button{
+    width: 300px;
+    height: 56px;
+    background-color: #184463;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FAFAFA;
+    display: block;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+.testsystem h2{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    color: #184463;
+    line-height: 67px;
+}
+.testsystem h2 span{
+    color: #FF7919;
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.searchbox1{
+    width: 626px;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.searchbox1 input{
+    outline: none;
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+}
+.searchbox1 input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #09090B;
+}
+
+.searchbox1 button{
+    width: 55px;
+    height: 44px;
+    background-color: #FF7919;
+    border: none;
+    color: #FAFAFA;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.languagebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 161px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+.languagebox h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #09090B;
+}
+.languagebox i{
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+
+}
+.languagebox i:hover .languagedropdown{
+    pointer-events: all;
+    opacity: 1;
+}
+.languagedropdown{
+    width: 160px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    transition: .3s;
+    top: 14px;
+    right: -10px;
+}
+.languagedropdown h6{
+    font-size: 16px;
+    font-weight: 500;
+    color: #184463;
+    padding: 10px;
+}
+.languagedropdown h6:hover{
+    background-color: #FF7919;
+    color: #FAFAFA;
+}
+
+.inputbox {
+    width: 70.7%;
+    height: 330px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 16px 10px 10px 16px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.inputbox textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    resize: none; /* Prevent the textarea from being resized */
+    padding: 10px; /* Adjust padding to your liking */
+    font-size: 16px;
+    line-height: 1.5; /* Line height to adjust text spacing */
+    overflow: auto;
+    outline: none;
+}
+
+.inputbox textarea::placeholder {
+    text-align: left; 
+    vertical-align: top;
+    color: #09090B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+.logo h2{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #184463;
+    margin-bottom: 20px;
+}
+.logo h2 span{
+    font-weight: 600;
+    color: #FF7919;
+}
+.logowrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.singlelogo{
+    width: 15%;
+    height: 84px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+.singlelogo:hover{
+    background-color: #FF7919;
+}
+.singlelogo img{
+    width: 70%;
+}
+
+
+.question{
+    padding: 100px 0px 100px 0px;
+}
+.question button{
+    width: 81px;
+    height: 46px;
+    background-color: #FF7919;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #FAFAFA;
+    border-radius: 18px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.question h2{
+    font-size: 66px;
+    font-weight: 500;
+    color: #184463;
+    text-align: center;
+    margin-top: 30px;
+}
+.question p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #09090B;
+    margin-top: 30px;
+}
+.question h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.singlequestion1{
+    width: 60%;
+    height: 110px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    margin: auto;
+
+}
+.singlequestion1{
+    margin-bottom: 30px;
+}
+.singlequestion1 h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #FF7919;
+    position: relative;
+}
+.singlequestion1 h4:hover .questiondropdown{
+    pointer-events: all;
+    opacity: 1;
+}
+.singlequestiontext h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #184463;
+    margin-bottom: 20px;
+}
+.singlequestiontext h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #09090B;
+}
+.singlequestion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 88px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin: auto;
+}
+.singlequestion{
+    margin-bottom: 30px;
+}
+.singlequestion h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #184463;
+    margin-bottom: 10px;
+}
+.singlequestion i{
+    font-size: 14px;
+    color: #184463;
+    position: relative;
+    cursor: pointer;
+}
+.singlequestion i:hover .questiondropdown{
+    pointer-events: all;
+    opacity: 1;
+}
+.questiondropdown{
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -15px;
+}
+.questiondropdown h6{
+    font-size: 14px;
+    padding: 10px;
+    color: #184463;
+    transition: .3s;
+    cursor: pointer;
+}
+.questiondropdown h6:hover{
+    background-color: #FF7919;
+    color: #FAFAFA;
+}
+
+
+
+
+
+footer{
+    background-image:url(../images/footer-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footerbg{
+    padding: 100px 30px 10px 30px;
+}
+.footerwrap{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.footerleft{
+    width: 27%;
+}
+.footerleft p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+.footerleft2{
+    width: 17%;
+}
+.footerleft2 h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footerleft2 ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.footerleft2 ul li:hover{
+    color: #FF7919;
+}
+.footeright{
+    width: 22%;
+}
+.footeright h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #FFFFFF
+}
+
+.footeright h5{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footeright h5 i{
+    color: #FF7919;
+    margin-right: 8px;
+}
+
+.footerbottom{
+    padding: 30px;
+}
+.footerbottom p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+
+@media (max-width:930px) {
+    .headerlist{
+        display: none;
+    }
+    .heroictop h1{
+        font-size: 50px;
+    }
+    .heroictop h3{
+        font-size: 22px;
+    }
+    .seotooleft h2{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .seotooleft h4{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .template h2{
+        font-size: 40px;
+    }
+    .singletemplate{
+        width: 48%;
+    }
+    .searchbox1{
+        width: 55%;
+    }
+    .inputbox{
+        width: 80.7%;
+    }
+    .logo h2{
+        font-size: 30px;
+    }
+
+    .question h2{
+        font-size: 30px;
+    }
+    .footerwrap{
+        flex-wrap: wrap;
+    }
+    .footerleft{
+        width: 50%;
+    }
+    .footerleft2{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    .footeright{
+        width: 70%;
+    }
+}
+
+
+@media (max-width:800px){
+    .heroictop p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .servicesleft h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .servicesleft h3{
+        font-size: 24px;
+    }
+    .testsystem h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .languagebox{
+        width: 25%;
+    }
+    .inputbox{
+        width: 84.7%;
+    }
+    .logowrap{
+        flex-wrap: wrap;
+    }
+    .singlelogo{
+        width: 31%;
+        margin-bottom: 20px;
+    }
+    .singlequestion1{
+        width: 85%;
+    }
+    .singlequestion{
+        width: 85%;
+    }
+}
+
+@media (max-width:600px){
+    .seotoolwrap{
+        flex-wrap: wrap;
+    }
+    .seotooleft{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .seotoolright{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .seotoolright:nth-child(2){
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    .heroictop h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .heroictop h3{
+        font-size: 20px;
+    }
+    .servicesleft{
+        width: 100%;
+    }
+    .servicesright{
+        display: none;
+    }
+    .template h2{
+        font-size: 30px;
+    }
+    .singletemplate{
+        width: 100%;
+    }
+    .testsystem{
+        padding: 50px 30px 50px 30px;
+    }
+    .searchbox1{
+        width: 60%;
+    }
+    .searchbox1 input::placeholder{
+        font-size: 10px;
+    }
+    .singlequestiontext h5{
+        font-size: 12px;
+    }
+    .singlequestiontext h6{
+        font-size: 10px;
+    }
+    .singlequestion h5{
+        font-size: 12px;
+    }
+    .questiondropdown{
+        width: 330px;
+    }
+    .languagebox{
+        width: 30%;
+        margin-left: 15px;
+    }
+    .inputbox{
+        width: 96.7%;
+    }
+}
